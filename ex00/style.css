@@ -1,0 +1,55 @@
+/* Reset بسيط للضبط */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    padding: 20px;
+	gap: 20px;
+	
+}
+
+
+.nav-container {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: black;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap:20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+	gap: 20px;
+   
+}
+
+/* تنسيق شكل الكروت */
+.card {
+    background: #ffff;
+    padding: 30px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    flex: 1 1 200px; 
+}
